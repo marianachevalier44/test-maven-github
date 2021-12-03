@@ -33,4 +33,4 @@ workflows:
       - tests:
           filters:
             branches:
-              only: /^test-maven-github-setup.*/
+              only: /^master/
