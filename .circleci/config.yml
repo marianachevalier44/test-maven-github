@@ -20,7 +20,7 @@ jobs:
       - checkout
       # Use mvn clean and package as the standard maven build phase
       - run:
-          name: "hello world"
+          name: echo "hello world"
           command: mvn -B -DskipTests clean package
 
 # Invoke jobs via workflows
