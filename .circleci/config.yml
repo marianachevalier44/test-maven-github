@@ -21,11 +21,7 @@ jobs:
       # Use mvn clean and package as the standard maven build phase
       - run:
           name: Build
-          command: mvn -Dskip-tests compile
-      # Then run your tests!
-      - run:
-          name: Test
-          command: mvn test
+          command: echo "toto"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
